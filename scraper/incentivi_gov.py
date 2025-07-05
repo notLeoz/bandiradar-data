@@ -31,6 +31,14 @@ FIELD_MAP = {
     "Stanziamento_incentivo": "Stanziamento_incentivo",
 }
 
+HEADERS = {
+    "User-Agent": (
+        "Mozilla/5.0 (X11; Linux x86_64) "
+        "AppleWebKit/537.36 (KHTML, like Gecko) "
+        "Chrome/126.0.0.0 Safari/537.36 BandiRadar/1.0"
+    )
+}
+
 
 _BASE_KEYS = {
     "titolo", "ente", "regione", "fonte_url", "scadenza", "estrazione"
@@ -56,7 +64,7 @@ def _normalize_date(date_str: str | None) -> str | None:
 
 
 def fetch_incentivi() -> list[dict]:
-    resp = requests.get(OPEN_CSV, timeout=20)
+    resp = requests.get(OPEN_CSV, headers=HEADERS, timeout=20)
     resp.raise_for_status()
 
     reader = csv.DictReader(
