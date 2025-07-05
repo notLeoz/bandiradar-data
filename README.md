@@ -1,4 +1,3 @@
-![CI](https://github.com/notLeoz/bandiradar/actions/workflows/build.yml/badge.svg)
 # BandiRadar · Web-scraping demo 
 
 > Non è un prodotto commerciale.  
@@ -14,12 +13,13 @@
   * `bandi.json` – version machine-readable
   * `bandi.ics`  – calendario scadenze
   * `slices/`    – sub-CSV regione × settore
-* GitHub Action (`.github/workflows/build.yml`)  
-  genera gli artefatti on-demand (trigger **workflow-dispatch**).
 
 ---
 
 ## Quick-start (locale)
+
+> Il portale open-data blocca i runner cloud; per ottenere il CSV completo
+> esegui lo scraper **in locale** (Linux, macOS, WSL o Docker).
 
 ```bash
 git clone https://github.com/notLeoz/bandiradar-data.git
