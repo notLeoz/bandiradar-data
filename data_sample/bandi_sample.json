@@ -1,0 +1,43 @@
+[
+  {
+    "ente": "Ministero dello sviluppo economico",
+    "Spesa_Ammessa_max": null,
+    "regione": "Abruzzo,Basilicata,Calabria,Campania,Emilia-Romagna,Friuli-Venezia Giulia,Lazio,Liguria,Lombardia,Marche,Molise,Piemonte,Puglia,Sardegna,Sicilia,Toscana,Trentino-Alto Adige/SÃ¼dtirol,Umbria,Valle d'Aosta/VallÃ©e d'Aoste,Veneto",
+    "Importo_massimo": null,
+    "fonte_url": "https://www.mise.gov.it/index.php/it/incentivi/impresa/bando-grandi-progetti-r-s-fri#termini",
+    "Importo_minimo": null,
+    "scadenza": "2020-03-08",
+    "Agevolazione_Concedibile_min": null,
+    "Spesa_Ammessa_min": null,
+    "Stanziamento_incentivo": "450000000",
+    "Agevolazione_Concedibile_max": null,
+    "titolo": "Grandi progetti R&S",
+    "estrazione": "2025-07-05T11:18:43",
+    "settore": "vario",
+    "tipologia": "altro",
+    "importo_min": 450000000,
+    "importo_max": 450000000,
+    "importo_flag": "auto"
+  },
+  {
+    "ente": "Ministero dello sviluppo economico/Agenzia delle entrate",
+    "Spesa_Ammessa_max": null,
+    "regione": "Abruzzo,Basilicata,Calabria,Campania,Emilia-Romagna,Friuli-Venezia Giulia,Lazio,Liguria,Lombardia,Marche,Molise,Piemonte,Puglia,Sardegna,Sicilia,Toscana,Trentino-Alto Adige/SÃ¼dtirol,Umbria,Valle d'Aosta/VallÃ©e d'Aoste,Veneto",
+    "Importo_massimo": null,
+    "fonte_url": "https://www.mise.gov.it/index.php/it/incentivi/impresa/credito-d-imposta-formazione",
+    "Importo_minimo": null,
+    "scadenza": null,
+    "Agevolazione_Concedibile_min": null,
+    "Spesa_Ammessa_min": null,
+    "Stanziamento_incentivo": null,
+    "Agevolazione_Concedibile_max": null,
+    "titolo": "Credito d'imposta formazione 4.0",
+    "estrazione": "2025-07-05T11:18:43",
+    "settore": "vario",
+    "tipologia": "credito_imposta",
+    "importo_min": null,
+    "importo_max": null,
+    "importo_flag": "none"
+  }
+]
+
